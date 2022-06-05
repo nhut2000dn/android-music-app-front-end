@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp">
+
+        <LinearLayout
+            android:layout_width="43dp"
+            android:layout_height="43dp">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/image_song"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:src="@drawable/ic_launcher_background"
+                android:scaleType="fitCenter"
+                app:riv_corner_radius="5dip"
+                app:riv_mutate_background="true"
+                app:riv_tile_mode="repeat"
+                android:alpha="19"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/name_song"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="fill_vertical"
+                    android:textSize="16dp"
+                    android:textColor="@color/colorBlack"
+                    android:text="Hello world"/>
+
+                <TextView
+                    android:id="@+id/name_artist"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="fill_vertical"
+                    android:textColor="@color/colorGray"
+                    android:textSize="14dp"
+                    android:text="Hello world"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:background="@color/colorGrayLight"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+</LinearLayout>

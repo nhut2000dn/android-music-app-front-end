@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorGrayLight">#C7DDE0</color>
+    <color name="colorGray">#373838</color>
+    <color name="colorWhiteLight">#ECE8E8</color>
+    <color name="colorBlackLight">#232424</color>
+    <color name="color_red">#E01A0B</color>
+    <color name="colorBlueFaint">#00BCD4</color>
+    <color name="colorWhiteTranlate">#2CCAB9B7</color>
+    <color name="colorWhiteTranlater">#CDFAF7F7</color>
+    <color name="colorRowAudioArtistSong">#E8FFFFFF</color>
+    <color name="backgroundArtistFragement">#C3BEBE</color>
+    <color name="colorTxtArtistRow">#252423</color>
+    <color name="colorTxtNumberSong">#5F5D5C</color>
+</resources>

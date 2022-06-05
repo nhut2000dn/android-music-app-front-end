@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginLeft="4dp"
+    android:layout_marginRight="4dp"
+    android:layout_marginTop="4dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shapte">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/image_country"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:riv_corner_radius="2dp"
+                android:src="@drawable/alanwalker"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="7dp">
+
+                    <TextView
+                        android:layout_width="19.5dp"
+                        android:layout_height="19.5dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:textColor="#31a7e0"
+                        android:background="@drawable/rounded_corner"
+                        android:text="1"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/name_song_top1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="fill_vertical"
+                        android:textSize="14sp"
+                        android:textColor="#181919"
+                        android:text="Bai Nay Chill Phet"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="fill_vertical"
+                        android:textColor="#424444"
+                        android:textSize="13sp"
+                        android:text=" - "/>
+
+                    <TextView
+                        android:id="@+id/name_artist_top1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="fill_vertical"
+                        android:text="Alan Walker"
+                        android:textColor="#424444"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="7dp">
+
+                    <TextView
+                        android:layout_width="19.5dp"
+                        android:layout_height="19.5dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/rounded_corner"
+                        android:gravity="center"
+                        android:text="2"
+                        android:textColor="#31e087"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/name_song_top2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="fill_vertical"
+                        android:textSize="14sp"
+                        android:textColor="#181919"
+                        android:text="Bai Nay Chill Phet"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="fill_vertical"
+                        android:textColor="#424444"
+                        android:textSize="13sp"
+                        android:text=" - "/>
+
+                    <TextView
+                        android:id="@+id/name_artist_top2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="fill_vertical"
+                        android:textSize="13sp"
+                        android:textColor="#424444"
+                        android:text="Alan Walker"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="7dp">
+
+                    <TextView
+                        android:layout_width="19.5dp"
+                        android:layout_height="19.5dp"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:textColor="#e08b31"
+                        android:background="@drawable/rounded_corner"
+                        android:text="3"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/name_song_top3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="fill_vertical"
+                        android:text="Bai Nay Chill Phet"
+                        android:textColor="#181919"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="fill_vertical"
+                        android:textColor="#424444"
+                        android:textSize="13sp"
+                        android:text=" - "/>
+
+                    <TextView
+                        android:id="@+id/name_artist_top3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="fill_vertical"
+                        android:textSize="13sp"
+                        android:textColor="#424444"
+                        android:text="Alan Walker"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+    <!--<LinearLayout-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_height="wrap_content"-->
+    <!--    android:orientation="vertical"-->
+    <!--    android:layout_marginLeft="4dp"-->
+    <!--    android:layout_marginRight="4dp"-->
+    <!--    android:layout_marginTop="4dp"-->
+    <!--    xmlns:android="http://schemas.android.com/apk/res/android">-->
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:background="#353535"-->
+    <!--        xmlns:android="http://schemas.android.com/apk/res/android">-->
+
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="match_parent">-->
+
+    <!--            <com.makeramen.roundedimageview.RoundedImageView-->
+    <!--                android:id="@+id/image_country"-->
+    <!--                android:layout_width="100dp"-->
+    <!--                android:layout_height="100dp"-->
+    <!--                android:src="@drawable/alanwalker"/>-->
+    <!--        </LinearLayout>-->
+
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:layout_height="match_parent"-->
+    <!--            android:layout_weight="1"-->
+    <!--            android:orientation="vertical"-->
+    <!--            android:layout_marginLeft="10dp">-->
+
+    <!--            <LinearLayout-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="match_parent"-->
+    <!--                android:layout_weight="1">-->
+
+    <!--                <LinearLayout-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="match_parent">-->
+
+    <!--                    <TextView-->
+    <!--                        android:layout_width="wrap_content"-->
+    <!--                        android:layout_height="match_parent"-->
+    <!--                        android:gravity="fill_vertical"-->
+    <!--                        android:textSize="13sp"-->
+    <!--                        android:textStyle="bold"-->
+    <!--                        android:textColor="#31a7e0"-->
+    <!--                        android:text="1  "/>-->
+    <!--                </LinearLayout>-->
+
+    <!--                <LinearLayout-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="match_parent">-->
+
+    <!--                    <TextView-->
+    <!--                        android:id="@+id/name_song_top1"-->
+    <!--                        android:layout_width="match_parent"-->
+    <!--                        android:layout_height="match_parent"-->
+    <!--                        android:gravity="fill_vertical"-->
+    <!--                        android:textSize="14sp"-->
+    <!--                        android:textColor="#f7fbfb"-->
+    <!--                        android:text="Bai Nay Chill Phet"/>-->
+    <!--                </LinearLayout>-->
+
+    <!--                <LinearLayout-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="match_parent">-->
+
+    <!--                    <TextView-->
+    <!--                        android:layout_width="wrap_content"-->
+    <!--                        android:layout_height="match_parent"-->
+    <!--                        android:gravity="fill_vertical"-->
+    <!--                        android:text=" - "/>-->
+
+    <!--                    <TextView-->
+    <!--                        android:id="@+id/name_artist_top1"-->
+    <!--                        android:layout_width="wrap_content"-->
+    <!--                        android:layout_height="match_parent"-->
+    <!--                        android:gravity="fill_vertical"-->
+    <!--                        android:text="Alan Walker"-->
+    <!--                        android:textColor="#c2c3c3"-->
+    <!--                        android:textSize="13sp" />-->
+    <!--                </LinearLayout>-->
+    <!--            </LinearLayout>-->
+
+    <!--            <LinearLayout-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="match_parent"-->
+    <!--                android:layout_weight="1">-->
+
+    <!--                <LinearLayout-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="match_parent">-->
+
+    <!--                    <TextView-->
+    <!--                        android:layout_width="match_parent"-->
+    <!--                        android:layout_height="match_parent"-->
+    <!--                        android:gravity="fill_vertical"-->
+    <!--                        android:textColor="#31e087"-->
+    <!--                        android:textStyle="bold"-->
+    <!--                        android:textSize="13sp"-->
+    <!--                        android:text="2  "/>-->
+    <!--                </LinearLayout>-->
+
+    <!--                <LinearLayout-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="match_parent">-->
+
+    <!--                    <TextView-->
+    <!--                        android:id="@+id/name_song_top2"-->
+    <!--                        android:layout_width="match_parent"-->
+    <!--                        android:layout_height="match_parent"-->
+    <!--                        android:gravity="fill_vertical"-->
+    <!--                        android:textSize="14sp"-->
+    <!--                        android:textColor="#f7fbfb"-->
+    <!--                        android:text="Bai Nay Chill Phet"/>-->
+    <!--                </LinearLayout>-->
+
+    <!--                <LinearLayout-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="match_parent">-->
+
+    <!--                    <TextView-->
+    <!--                        android:layout_width="wrap_content"-->
+    <!--                        android:layout_height="match_parent"-->
+    <!--                        android:gravity="fill_vertical"-->
+    <!--                        android:text=" - "/>-->
+
+    <!--                    <TextView-->
+    <!--                        android:id="@+id/name_artist_top2"-->
+    <!--                        android:layout_width="wrap_content"-->
+    <!--                        android:layout_height="match_parent"-->
+    <!--                        android:gravity="fill_vertical"-->
+    <!--                        android:textSize="13sp"-->
+    <!--                        android:textColor="#c2c3c3"-->
+    <!--                        android:text="Alan Walker"/>-->
+    <!--                </LinearLayout>-->
+    <!--            </LinearLayout>-->
+
+    <!--            <LinearLayout-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="match_parent"-->
+    <!--                android:layout_weight="1">-->
+
+    <!--                <LinearLayout-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="match_parent">-->
+
+    <!--                    <TextView-->
+    <!--                        android:layout_width="wrap_content"-->
+    <!--                        android:layout_height="match_parent"-->
+    <!--                        android:gravity="fill_vertical"-->
+    <!--                        android:textSize="13sp"-->
+    <!--                        android:textStyle="bold"-->
+    <!--                        android:textColor="#e08b31"-->
+    <!--                        android:text="3  "/>-->
+    <!--                </LinearLayout>-->
+
+    <!--                <LinearLayout-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="match_parent">-->
+
+    <!--                    <TextView-->
+    <!--                        android:id="@+id/name_song_top3"-->
+    <!--                        android:layout_width="match_parent"-->
+    <!--                        android:layout_height="match_parent"-->
+    <!--                        android:gravity="fill_vertical"-->
+    <!--                        android:text="Bai Nay Chill Phet"-->
+    <!--                        android:textColor="#f7fbfb"-->
+    <!--                        android:textSize="14sp" />-->
+    <!--                </LinearLayout>-->
+
+    <!--                <LinearLayout-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="match_parent">-->
+
+    <!--                    <TextView-->
+    <!--                        android:layout_width="wrap_content"-->
+    <!--                        android:layout_height="match_parent"-->
+    <!--                        android:gravity="fill_vertical"-->
+    <!--                        android:textSize="13sp"-->
+    <!--                        android:text=" - "/>-->
+
+    <!--                    <TextView-->
+    <!--                        android:id="@+id/name_artist_top3"-->
+    <!--                        android:layout_width="wrap_content"-->
+    <!--                        android:layout_height="match_parent"-->
+    <!--                        android:gravity="fill_vertical"-->
+    <!--                        android:textSize="13sp"-->
+    <!--                        android:textColor="#c2c3c3"-->
+    <!--                        android:text="Alan Walker"/>-->
+    <!--                </LinearLayout>-->
+    <!--            </LinearLayout>-->
+    <!--        </LinearLayout>-->
+    <!--    </LinearLayout>-->
+    <!--</LinearLayout>-->

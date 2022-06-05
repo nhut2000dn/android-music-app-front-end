@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_personal"
+        android:checked="true"
+        android:icon="@drawable/ic_person"
+        android:title="Personal"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_home"
+        android:checked="false"
+        android:icon="@drawable/ic_home"
+        android:title="Home"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_charts"
+        android:checked="false"
+        android:icon="@drawable/ic_insert_chart"
+        android:title="Charts"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_artist"
+        android:checked="false"
+        android:icon="@drawable/ic_artist"
+        android:title="Artist"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_theme_music"
+        android:checked="false"
+        android:icon="@drawable/ic_library_music"
+        android:title="Theme"
+        app:showAsAction="ifRoom" />
+</menu>

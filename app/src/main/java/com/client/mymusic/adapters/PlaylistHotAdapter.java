@@ -1,0 +1,83 @@
+package com.client.mymusic.adapters;
+
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
+
+import com.client.mymusic.R;
+import com.client.mymusic.entities.Playlist;
+import com.squareup.picasso.Picasso;
+
+import java.util.List;
+
+public class PlaylistHotAdapter extends RecyclerView.Adapter<PlaylistHotAdapter.RecyclerViewHolder>  {
+
+  private List<Playlist> mData;
+
+  private PlaylistHotAdapter.OnListenerRow mOnListenerRowSong;
+
+
+  public PlaylistHotAdapter(List<Playlist> mData, PlaylistHotAdapter.OnListenerRow onListenerRow) {
+    this.mData = mData;
+    this.mOnListenerRowSong = onListenerRow;
+  }
+
+  @NonNull
+  @Override
+  public PlaylistHotAdapter.RecyclerViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+    LayoutInflater inflater = LayoutInflater.from(parent.getContext());
+    View view = inflater.inflate(R.layout.row_playlist_hot, parent, false);
+    return new PlaylistHotAdapter.RecyclerViewHolder(view, mOnListenerRowSong);
+  }
+
+  @Override
+  public void onBindViewHolder(@NonNull PlaylistHotAdapter.RecyclerViewHolder holder, int position) {
+    holder.name.setText(mData.get(position).getName());
+    holder.views.setText(mData.get(position).getViews() + "");
+//    Picasso.get().load(mData.get(position).getImage())
+//            .fit().placeholder(R.drawable.playholder_music).into(holder.image);
+    Picasso.get().load("http://192.168.1.117/music_offical/storage/app/public/" + mData.get(position).getImage())
+            .fit().placeholder(R.drawable.playholder_music).into(holder.image);
+  }
+
+  @Override
+  public int getItemCount() {
+    return mData.size();
+  }
+
+  public class RecyclerViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
+
+    ImageView image;
+    TextView name;
+    TextView views;
+
+    PlaylistHotAdapter.OnListenerRow onListenerRowSong;
+
+    public RecyclerViewHolder(@NonNull View itemView, PlaylistHotAdapter.OnListenerRow onListenerRowSong) {
+      super(itemView);
+
+      image = itemView.findViewById(R.id.image);
+      name = itemView.findViewById(R.id.name);
+      views = itemView.findViewById(R.id.views);
+
+      this.onListenerRowSong = onListenerRowSong;
+
+      itemView.setOnClickListener(this);
+    }
+
+    @Override
+    public void onClick(View v) {
+      onListenerRowSong.onClickRow(getAdapterPosition(), "PlaylistHot");
+    }
+  }
+
+  public interface OnListenerRow {
+    void onClickRow(int position, String action);
+  }
+
+}

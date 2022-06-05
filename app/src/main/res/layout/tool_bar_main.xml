@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tool_bar"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:contentInsetLeft="0dp"
+    android:contentInsetStart="0dp"
+    app:contentInsetLeft="0dp"
+    app:contentInsetStart="0dp"
+    android:contentInsetRight="0dp"
+    android:contentInsetEnd="0dp"
+    app:contentInsetRight="0dp"
+    app:contentInsetEnd="0dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="#333333">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginStart="21dp">
+
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:id="@+id/image_account_action"
+                android:layout_width="33dp"
+                android:layout_height="33dp"
+                android:src="@drawable/ic_person"
+                android:tint="#cdcfd0"
+                app:civ_border_width="1dp"
+                app:civ_border_color="@color/colorWhite" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="13dp"
+            android:layout_marginEnd="21dp">
+
+            <TextView
+                android:id="@+id/intent_to_search_page"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="7dp"
+                android:paddingBottom="7dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="@color/colorBlack"
+                android:background="@drawable/shapte_btn_intent_to_search_page"
+                android:drawableLeft="@drawable/ic_search"
+                android:drawablePadding="5dp"
+                android:textSize="15dp"
+                android:text="Search Song ..."/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.appcompat.widget.Toolbar>

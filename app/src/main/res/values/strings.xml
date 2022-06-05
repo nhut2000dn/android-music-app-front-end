@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Music App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="err_name">the name field is required!</string>
+    <string name="err_email">the name field is required email!</string>
+    <string name="err_password">the password field is required!</string>
+    <string name="err_password_comfirmed">the password do not match with comfirmed!</string>
+    <string name="change_password">Change Password</string>
+    <string name="password">Password</string>
+    <string name="new_password">New Password</string>
+    <string name="password_comfirmed">Password Comfirmed</string>
+    <string name="profile">Profile</string>
+    <string name="edit_photo">Edit photo</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="home_second">Home Second</string>
+    <!--    <string name="facebook_app_id">278100240225623</string>-->
+    <!--    <string name="fb_login_protocol_scheme">fb278100240225623</string>-->
+    <string name="facebook_app_id">864375797404708</string>
+    <string name="fb_login_protocol_scheme">fb864375797404708</string>
+</resources>
